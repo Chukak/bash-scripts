@@ -9,12 +9,14 @@ BACKUP_PATH=/home/_backup/bash
 FILES=(~/.bashrc ~/.bash_logout ~/.bash_history /etc/bash.bashrc /etc/profile)
 # check arguments	
 if (( $#>2 )); then
-	echo 'backup_bash [option] [-tar] [path]. Options: -extra.'
+	echo 'backup_bash [-tar] [path]. Options: -tar.'
 	exit 128
 fi
 # check arguments and if dir exists
 if (( $#==2 )) && [[ -d $2 ]]; then
 	BACKUP_PATH=$2
+elif (( $#==1 )) && [[ -d $1 ]]; then
+	BACKUP_PATH=$1
 fi
 # if dir not exists, user can create 
 if [[ ! -d $BACKUP_PATH ]]; then
