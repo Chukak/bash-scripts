@@ -38,7 +38,7 @@ Up. Move N level up from current directory.
 
 Apt_setup. Two functions for apt. 
 
-<strong>apt_get_list -</strong> function get list name of packages to file or STDIN.
+<strong>apt_get_list -</strong> function get list name of packages to file or STDOUT.
 
 <strong>Example:</strong> apt_get_list [file]
   
