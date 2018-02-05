@@ -47,6 +47,21 @@ Apt_setup. Two functions for apt.
 <strong>Example:</strong> apt_install_from_list file
   
 [apt_setup](https://github.com/Chukak/bash-scripts/blob/master/apt_setup.sh) 
+<hr>
+
+Ip_setup. Two functions, get ip and get local ip.
+
+<strong>get_ip -</strong> function get your public ip.
+
+<strong>Example:</strong> get_ip 
+
+<strong>get_local_ip -</strong> function get local ip, or all local ip.
+
+<strong>Options:</strong> `-all`
+
+<strong>Example:</strong> get_local_ip [option]
+
+[ip_setup](https://github.com/Chukak/bash-scripts/blob/master/ip_setup.sh)
 
 ## Autors
 [chukak](https://github.com/Chukak)
