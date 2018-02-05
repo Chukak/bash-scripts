@@ -31,9 +31,22 @@ Sizeword. Change uppercase letter to lowercase. Lowercase letters to uppercase.
 
 Up. Move N level up from current directory.
 
-<strong>Example:</strong> up [level] 
+<strong>Example:</strong> up level 
 
 [up](https://github.com/Chukak/bash-scripts/blob/master/up.sh)
+<hr>
+
+Apt_setup. Two functions for apt. 
+
+<strong>apt_get_list -</strong> function get list name of packages to file or STDIN.
+
+<strong>Example:</strong> apt_get_list [file]
+  
+<strong>apt_install_from_file -</strong> function install all packages from file. File can create previous function.
+
+<strong>Example:</strong> apt_install_from_list file
+  
+[apt_setup](https://github.com/Chukak/bash-scripts/blob/master/apt_setup.sh) 
 
 ## Autors
 [chukak](https://github.com/Chukak)
