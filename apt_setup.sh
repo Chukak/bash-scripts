@@ -1,4 +1,3 @@
-
 # get list installed packages
 # Example: apt_get_list [file]
 apt_get_list() {
@@ -37,8 +36,3 @@ apt_install_from_file() {
 		echo "File not found."
 	fi	
 }
-
-
-
-
-
