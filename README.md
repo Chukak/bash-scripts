@@ -70,6 +70,3 @@ The script returns information about users from /etc/passwd.
 <strong>Example:</strong> `./user_info.sh`
 
 [user info](https://github.com/Chukak/bash-scripts/blob/master/user_info.sh)
-
-## Autors
-[chukak](https://github.com/Chukak)
