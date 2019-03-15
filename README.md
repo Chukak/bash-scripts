@@ -70,3 +70,11 @@ The script returns information about users from /etc/passwd.
 <strong>Example:</strong> `./user_info.sh`
 
 [user info](https://github.com/Chukak/bash-scripts/blob/master/user_info.sh)
+
+Update master branch from git submodules.
+
+<strong>Examples:</strong> 
+  * `./pull.sh ./submodules --exclude catch2 googletest`
+  * `./pull.sh ./submodules`
+
+[pull](https://github.com/Chukak/bash-scripts/blob/master/pull.sh)
